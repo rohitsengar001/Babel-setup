@@ -2,7 +2,7 @@
 > Sample Project For setting up Babel in Javascript project
 >Pre-Requistive
 >
->==Download three dev-dependencies==
+> >**Download three dev-dependencies**
 >
 > - @babel/cli
 >   : used to compile from commandline
