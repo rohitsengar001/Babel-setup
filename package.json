@@ -3,17 +3,14 @@
   "version": "1.0.2",
   "description": "It's just demo for setting up babel-setup",
   "main": "lib/index.js",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
-  },
+  "author": "Rohit Sengar",
+  "license": "MIT",
   "scripts": {
     "build": "babel server -w --out-dir lib ",
     "start": "nodemon lib/index.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish": "npm publish --access public"
   },
-  "author": "Rohit Sengar",
-  "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.17.3",
     "@babel/core": "^7.17.5",
