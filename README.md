@@ -8,7 +8,12 @@
 >   : used to compile from commandline
 > - @babel/core
 >   : Used for understand the babelrc
-> - @babel/preset-env
+> - @babel/preset-env  
+> <p style="background-color:blue;">Command</p>   
+>  
+> `
+> npm i -D @babel/cli @babel/core @babel/preset-env
+> `
 
 #
 >Steps  
@@ -24,10 +29,13 @@
 >          "script":
 >          {  
 >            
->             "build" : /"babel <targeted-file> -o <destination-file>",  
+>             "build" : "babel <targeted-file> -o <destination-file>",  
 >
 >             "start" : "npm run build && nodemon prd/index.js"
 >          }
 >
 >          ```
-> - 
+> 
+### Tutorial Link
+---
+[click_here](https://blog.jakoblind.no/babel-preset-env/)
