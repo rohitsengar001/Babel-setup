@@ -1,6 +1,6 @@
 {
   "name": "first-babel-demo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "It's just demo for setting up babel-setup",
   "main": "lib/index.js",
   "publishConfig": {
