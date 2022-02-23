@@ -1,13 +1,16 @@
 {
-  "name": "babel-setup",
+  "name": "first-babel-demo",
   "version": "1.0.0",
   "description": "It's just demo for setting up babel-setup",
   "main": "lib/index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "build": "babel server -w --out-dir lib ",
     "start": "nodemon lib/index.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish" :"npm publish --acess public"
+    "publish": "npm publish --access public"
   },
   "author": "Rohit Sengar",
   "license": "ISC",
@@ -19,5 +22,8 @@
     "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.26.0",
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "patch-version": "^0.1.1"
   }
 }
