@@ -5,6 +5,9 @@
   "main": "lib/index.js",
   "author": "Rohit Sengar",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "babel server -w --out-dir lib ",
     "start": "nodemon lib/index.js --watch",
