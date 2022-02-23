@@ -15,7 +15,8 @@ jobs:
               uses: actions/setup-node@v1.4.2
               with:
                   node-version: 12
-                  registry-url: https://registry.npmjs.org
+                  registry-url: https://npm.pkg.github.com
+                  scope: "@rohitsengar001"
             - name: 🚀 publish
               run: npm publish --access public
               working-directory: my-package
